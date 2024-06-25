@@ -35,7 +35,7 @@ public  class Main {
                 .pollingEvery(Duration.ofMillis(300))
                 .ignoring(ElementNotInteractableException.class);
     }
-    public static void fillForm(String[] args) {
+    public static void main(String[] args) {
 
         setup(); //konfiguruoja narsykle-ja paleidzia
         String userName = generateRandomUserName(); //sukuria vartotojo varda
